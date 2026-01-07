@@ -10,6 +10,6 @@ public class DockerController {
 
     @GetMapping("/welcome")
     public String welcomeToDocker(){
-        return "Welcome to docker! - Built by Github Actions";
+        return "Welcome to docker! - Built by Github Actions 2";
     }
 }
